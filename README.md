@@ -1,4 +1,6 @@
- # devops-capstone-project
+# devops-capstone-project
+
+![Build Status](https://github.com/parth190706/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
 
 A Customer Accounts microservice (Python Flask REST API) built as the DevOps capstone project. It manages customer accounts (create, read, update, delete, list) and is planned on an Agile Kanban board, tested with nosetests, built with GitHub Actions CI, secured with Talisman and CORS, and deployed with Docker, Kubernetes and a Tekton pipeline.
 
@@ -69,10 +71,10 @@ The code for the microservice is contained in the `service` package. All of the 
 
 ```text
 ├── service         <- microservice package
-│   ├── common/     <- common log and error handlers
-│   ├── config.py   <- Flask configuration object
-│   ├── models.py   <- code for the persistent model
-│   └── routes.py   <- code for the REST API routes
+│   ├── common/     <- common log and error handlers
+│   ├── config.py   <- Flask configuration object
+│   ├── models.py   <- code for the persistent model
+│   └── routes.py   <- code for the REST API routes
 ├── setup.cfg       <- tools setup config
 └── tests                       <- folder for all of the tests
     ├── factories.py            <- test factories
