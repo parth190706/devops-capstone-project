@@ -1,5 +1,7 @@
  # devops-capstone-project
 
+A Customer Accounts microservice (Python Flask REST API) built as the DevOps capstone project. It manages customer accounts (create, read, update, delete, list) and is planned on an Agile Kanban board, tested with nosetests, built with GitHub Actions CI, secured with Talisman and CORS, and deployed with Docker, Kubernetes and a Tekton pipeline.
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.9](https://img.shields.io/badge/Python-3.9-green.svg)](https://shields.io/)
 
